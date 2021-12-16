@@ -23,7 +23,7 @@ public class PaintWheels {
     	}
     }
     
-    //метод отрисовки колёс
+    //Метод отрисовки колёс
     public void paintWheels(Graphics2D g2d, Color DopColor, boolean WheelRims, float _startPosX, float _startPosY) {
     	switch (numberOfWheels) {
 	    	case Four:

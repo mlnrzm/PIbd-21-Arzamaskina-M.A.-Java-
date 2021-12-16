@@ -5,6 +5,7 @@ public class Program {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
+					//Создание формы
 					FormCar window = new FormCar();
 					window.frame.setVisible(true);
 				} 

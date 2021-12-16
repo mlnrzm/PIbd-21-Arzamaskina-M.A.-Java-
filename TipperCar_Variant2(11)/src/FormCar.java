@@ -104,6 +104,7 @@ public class FormCar {
 			}
 		});
 		
+		
 		//ќбработка нажати€ кнопок направлени€ движени€
         ActionListener actionListener = new ActionListener() {
             public void actionPerformed(ActionEvent event) {

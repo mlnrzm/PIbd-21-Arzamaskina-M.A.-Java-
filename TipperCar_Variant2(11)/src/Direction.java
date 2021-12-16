@@ -1,4 +1,5 @@
 
+//Перечисление направлений
 public enum Direction {
     Up,
     Down,

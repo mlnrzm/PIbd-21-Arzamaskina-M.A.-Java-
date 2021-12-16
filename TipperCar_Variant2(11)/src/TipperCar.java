@@ -145,6 +145,7 @@ public class TipperCar {
         }
     }
     
+    
     /// <summary>
     /// Отрисовка автомобиля
     /// </summary>
