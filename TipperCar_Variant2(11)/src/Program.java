@@ -5,11 +5,9 @@ public class Program {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					//Создание формы
-					FormCar window = new FormCar();
+					FormGarages window = new FormGarages();
 					window.frame.setVisible(true);
-				} 
-				catch (Exception e) {
+				} catch (Exception e) {
 					e.printStackTrace();
 				}
 			}

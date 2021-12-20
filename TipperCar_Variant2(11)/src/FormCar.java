@@ -23,15 +23,17 @@ public class FormCar {
     }
     
     //Метод получения машины
-    public ITransport SetCar() {
-    	return this.car;
+    public void SetCar(ITransport car)
+    {
+        this.car = car;
+        car.SetPosition((int)(Math.random()*10) + 100, (int)(Math.random()*100) + 110, panel.getWidth(), panel.getHeight());
+        Draw();
     }
 
 	private void initialize() {
 		frame = new JFrame();
 		frame.setTitle("\u0421\u0430\u043C\u043E\u0441\u0432\u0430\u043B");
-		frame.setBounds(100, 100, 702, 471);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);		
+		frame.setBounds(100, 100, 702, 471);	
 		frame.getContentPane().setLayout(null);
 		
 		frame.addComponentListener(new ComponentAdapter() {  
